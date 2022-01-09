@@ -9,7 +9,7 @@ We usually get quite a lot of support mails dealing with various topics. This ca
 
 As we are only a small team answering a lot of mails is very time consuming, so we want to give you an overview about how to help yourself before contacting us.
 
-We divided this information into "Help for problems" and "Ideas for c:geo":
+We divided this information into "Help for problems" and "Ideas for WhereYouGo":
 
 ## You have a problem using WhereYouGo?
 
@@ -17,7 +17,7 @@ We divided this information into "Help for problems" and "Ideas for c:geo":
 
 We kindly ask you to make sure your problem is not covered by the following information before sending us a mail:
 
-- First of all please check if your problem is answered in our [FAQ](../faq)!
+- First of all please check if your problem is answered in our [FAQ](./faq)!
 
 - You should also check if your problem is already listed on our [Bugtracking system](https://github.com/cgeo/WhereYouGo/issues?q=sort%3Aupdated-desc). In this case we are already working on it and you can follow the status of the problem there.
 
@@ -50,7 +50,7 @@ But WhereYouGo is open source, so anyone willing and able to help us is welcome 
 
 We are also using our bugtracking system for documentation of new ideas and feature requests. Before contacting us with your idea please check if it is not already contained in our list of [Feature Requests](https://github.com/cgeo/WhereYouGo/issues?q=label%3A%22Feature+Request%22+sort%3Acreated-desc).
 
-Our [FAQ](../faq) might also contain some answers about why certain features or functions are currently not implemented.
+Our [FAQ](./faq) might also contain some answers about why certain features or functions are currently not implemented.
 
 ### Contact us with your idea
 
