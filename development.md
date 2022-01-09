@@ -24,7 +24,7 @@ Like our application also this website is [open source](https://github.com/cgeo/
 
 ## Beta Testing
 
-You can also help us by becoming a beta tester for the release candidate versions of c:geo.
+You can also help us by becoming a beta tester for the release candidate versions of WhereYouGo.
 
 Becoming beta tester is just one click away: [WhereYouGo Google Play Beta Testing](https://play.google.com/apps/testing/menion.android.whereyougo)
 
