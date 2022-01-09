@@ -8,3 +8,8 @@
   title: "Download the latest c:geo APK file"
   url: https://github.com/cgeo/WhereYouGo/releases/latest
   color: "#A4C639"
+- icon: plus-network
+  name: F-Droid
+  title: "Download WhereYouGo from F-Droid"
+  url: https://f-droid.org/packages/menion.android.whereyougo/
+  color: "#1C78D3"
