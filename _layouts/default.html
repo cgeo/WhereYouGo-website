@@ -46,10 +46,10 @@
                 {% if page.edit_link %}
                     Edit page on GitHub:
                     {% for source in page.edit_link %}
-                        <a href="{{ site.github.repository_url }}/edit/main/{{ source[1] }}">{{ source[0] }}</a>
+                        <a href="{{ site.github.repository_url }}/edit/master/{{ source[1] }}">{{ source[0] }}</a>
                     {% endfor %}
                 {% else %}
-                    <a href="{{ site.github.repository_url }}/edit/main/{{ page.path }}">Edit page on GitHub</a>
+                    <a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}">Edit page on GitHub</a>
                 {% endif %}
             </article>
         {% endunless %}
