@@ -1,0 +1,13 @@
+# This file is used for managing for the features displayed on the homepage.
+- icon: compass-outline
+  title: Play WheriGo cartridges
+  description: Full featured player for WheriGo cartridges.
+- icon: map
+  title: Map view
+  description: View locations and zones for the game on online or offline maps.
+- icon: file-export
+  title: Download cartridges
+  description: Download cartridges directly from wherigo.com.
+- icon: download-network
+  title: Full Offline Support
+  description: Download cartridges, use offline maps.

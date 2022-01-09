@@ -1,0 +1,9 @@
+title: Wherigo for Android
+
+exclude:
+- Gemfile
+- Gemfile.lock
+- README.md
+- CNAME
+
+markdown: kramdown

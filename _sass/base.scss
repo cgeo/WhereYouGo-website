@@ -1,0 +1,137 @@
+@import "variables";
+@import "mixins";
+@import "reset";
+
+@import "article";
+
+@import "https://cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css";
+@import "https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css";
+
+body {
+    background: $color-dark-grey;
+    font-family: $font-family-text, sans-serif;
+    font-size: $font-size;
+    padding-top: $height-navigation;
+}
+
+::selection {
+    background: rgba(white, .2);
+}
+
+.box {
+    display: block;
+    padding: $padding-box;
+    background: rgba(white, .05);
+    @include shadow();
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    text-align: center;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+
+    background: rgba($color-wyg-blue, .75);
+    @include shadow(1px, 5px, .35);
+
+    a {
+        display: block;
+        padding: 12px 15px;
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        font-size: 1.2em;
+        color: white;
+        opacity: .9;
+
+        &.active {
+            border-bottom: 3px solid white;
+        }
+
+        transition: all .1s ease-in-out;
+
+        &:not(:hover) {
+            opacity: .6;
+        }
+
+        &.only-icon {
+            .label { display: none; }
+        }
+
+        &:not(.only-icon) {
+            $max-width: 800px;
+            @media(max-width: $max-width) { .label { display: none; } }
+            @media(min-width: $max-width + 1px) { .mdi { display: none; } }
+        }
+
+        .mdi {
+            display: inline-block;
+            transform: scale(1.25);
+        }
+    }
+}
+
+main, footer {
+    padding: 90px;
+
+    @media(max-width: 850px) {
+        padding: 35px;
+    }
+}
+
+.container {
+    max-width: $width-container;
+    margin: auto;
+}
+
+.warning {
+    @extend .box;
+    max-width: 400px;
+    margin: auto;
+    background: #B71C1C;
+    margin-bottom: 90px;
+    color: white;
+    line-height: 1.3;
+
+    h1 {
+        text-align: center;
+        margin: 0;
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.infobox {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(white, .8);
+    box-shadow: 0 0 15px rgba(black, .2);
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgba(white, .05);
+    background-size: cover;
+    background-position: center;
+    @include shadow();
+    text-align: center;
+    position: relative;
+}
+
+@import "pages/faq";
+@import "pages/heatmap";
+@import "pages/index";
+@import "pages/status";
+
+@import "components/actions";
+@import "components/features";
+@import "components/editongithub";

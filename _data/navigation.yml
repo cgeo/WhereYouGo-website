@@ -1,0 +1,16 @@
+- icon: home
+  name: Home
+  url: index.html
+  onlyIcon: true
+- icon: comment-question-outline
+  name: FAQ
+  url: faq
+- icon: help-circle-outline
+  name: Support
+  url: support
+- icon: code-braces
+  name: Development
+  url: development
+- icon: history
+  name: Changelog
+  url: https://github.com/cgeo/WhereYouGo/releases

@@ -1,0 +1,16 @@
+- title: Contribute
+  subtitle: Help us build WhereYouGo.
+  description: WhereYouGo is and always will be 100% free and open source. Join our team and help make it better.
+  buttons:
+  - label: Get involved
+    url: development
+- title: Follow
+  subtitle: Stay informed about WhereYouGo.
+  description: Follow us on social media and stay up to date with the latest and greatest about WhereYouGo.
+  buttons:
+  - icon: facebook
+    label: Facebook
+    url: https://www.facebook.com/android.wherigo
+  - icon: github-face
+    label: GitHub
+    url: https://github.com/cgeo/WhereYouGo

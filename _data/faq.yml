@@ -1,0 +1,37 @@
+- id: id_1
+  title:
+      en: Title_1
+      de: Titel_1
+  items:
+      - id: item_1
+        en:
+            title: ItemTitle_1
+            content: |
+                Content_1
+        de:
+            title: EintragTitel_1
+            content: |
+                Inhalt_1
+- id: id_2
+  title:
+      en: Title_2
+      de: Titel_2
+  items:
+      - id: item_2
+        en:
+            title: ItemTitle_2
+            content: |
+                Content_2
+        de:
+            title: EintragTitel_2
+            content: |
+                Inhalt_2
+      - id: item_3
+        en:
+            title: ItemTitle_3
+            content: |
+                Content_3
+        de:
+            title: EintragTitel_3
+            content: |
+                Inhalt_3
