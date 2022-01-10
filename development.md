@@ -20,7 +20,7 @@ If you are interested to further improve WhereYouGo and have some knowledge of J
 
 ## Our website
 
-Like our application also this website is [open source](https://github.com/cgeo/whereyougo.github.io). If you want to fix a typo or otherwise improve it, you are welcome to contribute as described in the [readme file](https://github.com/cgeo/whereyougo.github.io/blob/master/README.md).
+Like our application also this website is [open source](https://github.com/cgeo/WhereYouGo-website). If you want to fix a typo or otherwise improve it, you are welcome to contribute as described in the [readme file](https://github.com/cgeo/WhereYouGo-website/blob/master/README.md).
 
 ## Beta Testing
 
