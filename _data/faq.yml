@@ -94,6 +94,25 @@
                 Nachdem du deine Benutzerdaten hinterlegt hast, kannst du den In-App Download einer Cartridge durch eine der folgenden Methoden auslösen:
                 - Öffne die gewünschte Cartridge- oder Geocache-Seite in deinem Android-Browser und tippe auf den Cartridge-Download-Link.
                 - Wenn du [c:geo](https://www.cgeo.org) nutzt, öffne einfach den gewünschten Wherigo-Geocache in c:geo und tippe auf das WhereYouGo-Symbol auf der Seite Cache-Details.
+      - id: facebook-login
+        en:
+            title: Can I login using my Facebook or Google account?
+            content: |
+                No, the login via Facebook or Google is an option on the Wherigo/Geocaching website only.
+                In order to login to wherigo.com via WhereYouGo you need to enter the username and password dedicated to the website.
+
+                In case you currently only use Facebook or Google to login to Wherigo/Geocaching, you have to go to the [Password Reset Page](https://www.geocaching.com/account/signin/requestpassword) to set up a regular password first.
+                Please note, that you have to logout from the geocaching.com website first to reach the password reset page.
+                After you got this password you can use it together with your username to log in with WhereYouGo.
+        de:
+            title: Kann ich mich mit meinem Facebook- oder Google-Account anmelden?
+            content: |
+                Nein, die Anmeldung über Facebook oder Google ist nur auf der WheriGo/Geocaching-Webseite möglich.
+                Um dich in WhereYouGo bei wherigo.com anzumelden, benötigst du einen Benutzernamen und Passwort von dieser Seite.
+
+                Wenn du dich bislang nur über Facebook oder Google bei Wherigo/Geocaching angemeldet hast, gehe bitte auf ihre [Passwort-Reset Seite](https://www.geocaching.com/account/signin/requestpassword) und fordere dort ein reguläres Passwort an.
+                Bitte beachte, dass du dich erst auf der Geocaching-Seite ausloggen musst, um die Passwort-Reset Seite zu erreichen.
+                Wenn du dieses Passwort erhalten hast, kannst du es zusammen mit deinem Benutzernamen in WhereYouGo für die Anmeldung verwenden.
       - id: cartridge_download
         en:
             title: Downloading cartridges from wherigo.com fails!
