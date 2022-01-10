@@ -68,6 +68,32 @@
       en: Generic
       de: Allgemein
   items:
+      - id: login
+        en:
+            title: How can I use the in-app download of Wherigo cartridges?
+            content: |
+                WhereYouGo can automatically download and store Wherigo cartridges for you.
+                The prerequisite for this is, that you stored your login credentials within WhereYouGo as follows:
+                - Start WhereYouGo
+                - Go to Settings - Login credentials
+                - Enter Username and Password for wherigo.com there (same credentials as you use for geocaching.com)
+                - Use "Check login data" to test whether WhereYouGo can succesfully connect to wherigo.com, else doublecheck your credentials
+                
+                Once you have setup the credentials you can invoke in-app download of a cartridge with one of the following methods:
+                - Open the desired cartridge page or the Wherigo geocache page in your Android web browser and tap on the cartridge download link.
+                - If you use [c:geo](https://www.cgeo.org) just open the desired Wherigo geocache in c:geo and tap on the WhereYouGo icon shown on the cache detail page.
+        de:
+            title: Wie kann ich den In-App Download von Wherigo-Cartridges nutzen?
+            content: |
+                WhereYouGo kann Wherigo-Cartridges für dich automatisch herunterladen und abspeichern.
+                Die Voraussetzung dafür ist, dass du deine Benutzerdaten in WhereYouGo folgendermaßen hinterlegt hast:
+                - Starte WhereYouGo
+                - Gehe in Einstellungen - Zugangsdaten
+                - Gib deinen Benutzername und dein Passwort für wherigo.com dort ein (die gleichen Benutzerdaten, die du auch für geocaching.com nutzt)
+                
+                Nachdem du deine Benutzerdaten hinterlegt hast, kannst du den In-App Download einer Cartridge durch eine der folgenden Methoden auslösen:
+                - Öffne die gewünschte Cartridge- oder Geocache-Seite in deinem Android-Browser und tippe auf den Cartridge-Download-Link.
+                - Wenn du [c:geo](https://www.cgeo.org) nutzt, öffne einfach den gewünschten Wherigo-Geocache in c:geo und tippe auf das WhereYouGo-Symbol auf der Seite Cache-Details.
       - id: cartridge_download
         en:
             title: Downloading cartridges from wherigo.com fails!
@@ -97,29 +123,22 @@
                 - Öffne eine beliebige Cartridge-Seite
                 - Wählen den Cartridge-Typ "Pocket PC" aus und klicke auf den Link, um die Cartridge herunterzuladen
                 - Akzeptiere nun die Lizenzbedingungen, die vor dem Beginn des Downloads abgefragt werden
-      - id: login
+      - id: mapsforge
         en:
-            title: How can I use the in-app download of Wherigo cartridges?
+            title: What offline map file can I use for WhereYouGo?
             content: |
-                WhereYouGo can automatically download and store Wherigo cartridges for you.
-                The prerequisite for this is, that you stored your login credentials within WhereYouGo as follows:
-                - Start WhereYouGo
-                - Go to Settings - Login credentials
-                - Enter Username and Password for wherigo.com there (same credentials as you use for geocaching.com)
-                - Use "Check login data" to test whether WhereYouGo can succesfully connect to wherigo.com, else doublecheck your credentials
+                WhereYouGo currently supports mapsforge maps with version v3 only. Newer versions are not supported yet.
+                We are aware, that v3 maps are potentially outdated and working on supporting more recent versions of mapsforge maps in future versions of WhereYouGo.
                 
-                Once you have setup the credentials you can invoke in-app download of a cartridge with one of the following methods:
-                - Open the desired cartridge page or the Wherigo geocache page in your Android web browser and tap on the cartridge download link.
-                - If you use [c:geo](https://www.cgeo.org) just open the desired Wherigo geocache in c:geo and tap on the WhereYouGo icon shown on the cache detail page.
+                Compatible map files for the desired region are available e.g. from here:
+                - [Mapsforge Download Mirror - V3](http://ftp-stud.hs-esslingen.de/pub/Mirrors/download.mapsforge.org/maps/v3/)
+                - [OpenAndroMaps](https://www.openandromaps.org/downloads/) (Make sure to use the V3 download link)
         de:
-            title: Wie kann ich den In-App Download von Wherigo-Cartridges nutzen?
+            title: Welche Offline-Kartendateien kann ich für WhereYouGo benutzen?
             content: |
-                WhereYouGo kann Wherigo-Cartridges für dich automatisch herunterladen und abspeichern.
-                Die Voraussetzung dafür ist, dass du deine Benutzerdaten in WhereYouGo folgendermaßen hinterlegt hast:
-                - Starte WhereYouGo
-                - Gehe in Einstellungen - Zugangsdaten
-                - Gib deinen Benutzername und dein Passwort für wherigo.com dort ein (die gleichen Benutzerdaten, die du auch für geocaching.com nutzt)
+                WhereYouGo unterstützt momentan nur Mapsforge-Karten der Version v3. Neuere Versionen werden noch nicht unterstützt.
+                Wir sind uns bewusst, dass v3-Karten potentiell veraltet sind und arbeiten daran, zukünftig aktuellere Versionen der Mapsforge-Karten in zukünftigen WhereYouGo-Versionen zu unterstützen.
                 
-                Nachdem du deine Benutzerdaten hinterlegt hast, kannst du den In-App Download einer Cartridge durch eine der folgenden Methoden auslösen:
-                - Öffne die gewünschte Cartridge- oder Geocache-Seite in deinem Android-Browser und tippe auf den Cartridge-Download-Link.
-                - Wenn du [c:geo](https://www.cgeo.org) nutzt, öffne einfach den gewünschten Wherigo-Geocache in c:geo und tippe auf das WhereYouGo-Symbol auf der Seite Cache-Details.
+                Kompatible Karten-Dateien für die gewünschte Regsion sind z.B. hier verfügbar:
+                - [Mapsforge Download Mirror - V3](http://ftp-stud.hs-esslingen.de/pub/Mirrors/download.mapsforge.org/maps/v3/)
+                - [OpenAndroMaps](https://www.openandromaps.org/downloads/) (Achte darauf, den Download-Link für v3 zu nutzen)
