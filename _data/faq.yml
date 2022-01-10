@@ -10,7 +10,7 @@
                 Unfortunately WhereYouGo is not yet fully compatibale to Android 12, which is causing this problem.
                 There is no workaround for the time being, so WhereYouGo does not work on Android 12 devices.
                 
-                Unfortunately the open source team maintaining the app is quite small at this moment, but we are doing our best to make WhereYouGo compatible to Android 12 and release an update as soon as possible.                
+                Unfortunately the open source team maintaining the app is quite small at this moment, but we are doing our best to make WhereYouGo compatible to Android 12 and release an update as soon as possible.         
         de:
             title: Die App meldet, dass die Standortdienste nicht funktionieren!
             content: |
@@ -18,23 +18,140 @@
                 WhereYouGo funktioniert also nicht auf Android 12-Geräten, es gibt momentan keinen Workaround.
                 
                 Leider ist das Open-Source Team, welches die App weiterentwicklet momemtan sehr klein, aber wir geben unser Bestes um WhereYouGo so schnell wie möglich zu Android 12 kompatibel zu machen und ein Update zu veröffentlichen.
- 
+      - id: file_access
+        en:
+            title: The app does not see any cartridge and/or offline map files!
+            content: |
+                Unfortunately WhereYouGo is not yet fully compatibale to the current Android file access requirements, which is causing this problem.
+                
+                To still be able to load and play cartridges please proceed as follows:
+                - Go to WhereYouGo Settings - Global and set the Wherigo folder to "Default"
+                - Load cartridges via in-app download by e.g. clicking on a Wherigo download link on the website or triggering the download from c:geo.
+                
+                Regarding the use of offline maps:
+                There is no workaround possible for the time being. You can only use the available online maps until the problem is solved.
+                
+                Unfortunately the open source team maintaining the app is quite small at this moment, but we are doing our best to make WhereYouGo compatible to newer Android versions and release an update as soon as possible.
+        de:
+            title: Die App sieht keine Cartridges und/oder keine Offline-Kartendateien!
+            content: |
+                Leider ist WhereYouGo noch nicht voll kompatibel zu den aktuellen Anforderungen für Dateizugriff, was dieses Problem verursacht.
+                
+                Um dennoch Cartridges zu laden und zu spielen, geh bitte wie folgt vor:
+                - Gehe in die WhereYouGo Einstellungen - Allgemein und setze den Wherigo-Ordner auf "Standard"
+                - Lade Cartridges mittels In-App Download z.B. durch Klick auf einen Wherigo Download-Link auf der Webseite oder durch Starten des Downloads aus c:geo.
+                
+                Bezüglich der Nutzung von Offline-Karten:
+                Hier gibt es leider momentan keinen Workaround. Du kannst nur die verfügbaren Online-Karten nutzen, bis das Problem behoben ist.
+                
+                Leider ist das Open-Source Team, welches die App weiterentwicklet momemtan sehr klein, aber wir geben unser Bestes um WhereYouGo so schnell wie möglich zu neueren Android-Versionen kompatibel zu machen und ein Update zu veröffentlichen.
+      - id: android12_links
+        en:
+            title: I am using Android 12 and Wherigo links are no longer opened with WhereYouGo!
+            content: |
+                If you are using a device running Android 12 you might experience, that WhereYouGo is not offered as target app (anymore) when tapping a cartridge link or when trying to open WhereYouGo from c:geo. Instead the link is opened in your browser.
+                
+                This is caused by the fact, that in Android 12 Google removed the dialog to let the user choose which app to use for certain web links. Instead the browser is automatically used.
+                
+                You can change this by going to your device app settings, open the WhereYouGo app settings and manually select to allow all URLs (web links) to open in WhereYouGo.                
+        de:
+            title: Ich nutze Android 12 und Wherigo-Links werden nicht mehr mit WhereYouGo geöffnet!
+            content: |
+                Wenn du ein Gerät mit Android 12 nutzt, kann es passieren, dass WhereYouGo nicht (mehr) als Ziel-App angeboten wird, wenn ein Cartridge-Link angeklickt wird oder WhereYouGo aus c:geo heraus gestartet werden soll. Stattdessen wird der Link in deinem Browser geöffnet.
+                
+                Dies wird dadurch verursacht, dass Google den Dialog, der den Nutzer die gewünschte App auswählen lässt, entfernt hat. Stattdessen wird der Link im Browser geöffnet.
+                
+                Du kannst dies ändern, in dem du die App-Einstellungen deines Gerätes und dort die WhereYouGo App-Einstellungen öffnest und dort manuell festlegst alle URLs (Web-Links) mit WhereYouGo zu öffnen.
+      - id: locus
+        en:
+            title: I want to use Locus as map provider, but it does not work!
+            content: |
+                [Locus](https://play.google.com/store/apps/details?id=menion.android.locus) has changed their map interface some time ago, but this is not yet reflected in WhereYouGo.
+                Unfortunately the open source team maintaining the app is quite small at this moment, but we are doing our best to make WhereYouGo again compatible Locus and release an update as soon as possible. 
+                
+                As a workaround please go to WhereYouGo Settings - Global and change the map provider to Mapsforge.
+        de:
+            title: Ich möchte Locus als Kartengrundlage nutzen, aber es funktioniert nicht!
+            content: |
+                [Locus](https://play.google.com/store/apps/details?id=menion.android.locus) hat bereits vor einiger Zeit seine Karten-Schnittstelle geändert, aber diese Änderung ist in WhereYouGo noch nicht umgesetzt.
+                Leider ist das Open-Source Team, welches die App weiterentwicklet momemtan sehr klein, aber wir geben unser Bestes um WhereYouGo so schnell wie möglich wieder kompatibel zu Locus zu machen und ein Update zu veröffentlichen.
+                
+                Als Workaround gehe bitte in die WhereYouGo-Einstellungen - Allgemein und ändere die Kartengrundlage auf Mapsforge.
+      - id: mapsforge_zoom
+        en:
+            title: The text on the map is too small to read!
+            content: |
+                If you use an offline map you can change the text size in Map - Menu - Preferences - Font size according to your needs.
+                
+                If you however use an online map source this setting has no effect. We are working on a better visualization for the online map.
+        de:
+            title: Der Text auf der Karte ist zu klein um ihn zu lesen!
+            content: |
+                Wenn du eine Offline-Karte nutzt kannst du die Textgröße in Karte - Menü - Einstellungen - Schriftgröße nach Bedarf verändern.
+                
+                Wenn du allerdings eine Online-Karte nutzt, hat diese Einstellung keine Auswirkung. Wir arbeiten an einer besseren Darstellung der Online-Karte.
+
 - id: generic
   title:
       en: Generic
       de: Allgemein
   items:
+      - id: login
+        en:
+            title: How can I use the in-app download of Wherigo cartridges?
+            content: |
+                WhereYouGo can automatically download and store Wherigo cartridges for you.
+                The prerequisite for this is, that you stored your login credentials within WhereYouGo as follows:
+                - Start WhereYouGo
+                - Go to Settings - Login credentials
+                - Enter Username and Password for [wherigo.com](https://www.wherigo.com) there (same credentials as you use for [geocaching.com](https://www.geocaching.com))
+                - Use "Check login data" to test whether WhereYouGo can succesfully connect to wherigo.com, else doublecheck your credentials
+                
+                Once you have setup the credentials you can invoke in-app download of a cartridge with one of the following methods:
+                - Open the desired cartridge page or the Wherigo geocache page in your Android web browser and tap on the cartridge download link.
+                - If you use [c:geo](https://www.cgeo.org) just open the desired Wherigo geocache in c:geo and tap on the WhereYouGo icon shown on the cache detail page.
+        de:
+            title: Wie kann ich den In-App Download von Wherigo-Cartridges nutzen?
+            content: |
+                WhereYouGo kann Wherigo-Cartridges für dich automatisch herunterladen und abspeichern.
+                Die Voraussetzung dafür ist, dass du deine Benutzerdaten in WhereYouGo folgendermaßen hinterlegt hast:
+                - Starte WhereYouGo
+                - Gehe in Einstellungen - Zugangsdaten
+                - Gib deinen Benutzername und dein Passwort für [wherigo.com](https://www.wherigo.com) dort ein (die gleichen Benutzerdaten, die du auch für [geocaching.com](https://www.geocaching.com) nutzt)
+                
+                Nachdem du deine Benutzerdaten hinterlegt hast, kannst du den In-App Download einer Cartridge durch eine der folgenden Methoden auslösen:
+                - Öffne die gewünschte Cartridge- oder Geocache-Seite in deinem Android-Browser und tippe auf den Cartridge-Download-Link.
+                - Wenn du [c:geo](https://www.cgeo.org) nutzt, öffne einfach den gewünschten Wherigo-Geocache in c:geo und tippe auf das WhereYouGo-Symbol auf der Seite Cache-Details.
+      - id: facebook-login
+        en:
+            title: Can I login using my Facebook or Google account?
+            content: |
+                No, the login via Facebook or Google is an option on the Wherigo/Geocaching website only.
+                In order to login to wherigo.com via WhereYouGo you need to enter the username and password dedicated to the website.
+
+                In case you currently only use Facebook or Google to login to Wherigo/Geocaching, you have to go to the [Password Reset Page](https://www.geocaching.com/account/signin/requestpassword) to set up a regular password first.
+                Please note, that you have to logout from the geocaching.com website first to reach the password reset page.
+                After you got this password you can use it together with your username to log in with WhereYouGo.
+        de:
+            title: Kann ich mich mit meinem Facebook- oder Google-Account anmelden?
+            content: |
+                Nein, die Anmeldung über Facebook oder Google ist nur auf der WheriGo/Geocaching-Webseite möglich.
+                Um dich in WhereYouGo bei wherigo.com anzumelden, benötigst du einen Benutzernamen und Passwort von dieser Seite.
+
+                Wenn du dich bislang nur über Facebook oder Google bei Wherigo/Geocaching angemeldet hast, gehe bitte auf ihre [Passwort-Reset Seite](https://www.geocaching.com/account/signin/requestpassword) und fordere dort ein reguläres Passwort an.
+                Bitte beachte, dass du dich erst auf der Geocaching-Seite ausloggen musst, um die Passwort-Reset Seite zu erreichen.
+                Wenn du dieses Passwort erhalten hast, kannst du es zusammen mit deinem Benutzernamen in WhereYouGo für die Anmeldung verwenden.
       - id: cartridge_download
         en:
             title: Downloading cartridges from wherigo.com fails!
             content: |
                 In order to succesfully download Wherigo cartridges the following conditions must be met:
                 - Your device has a working internet connection (without proxy server, VPN, etc.)
-                - Your credentials for wherigo.com (same credentials as you use for geocaching.com) have been stored in WhereYouGo Settings - Login credentials
+                - Your credentials for [wherigo.com](https://www.wherigo.com) (same credentials as you use for [geocaching.com](https://www.geocaching.com)) have been stored in WhereYouGo Settings - Login credentials
                 
                 If it still does not work although the credentials are checked to be correct the problem could be, that you did not yet accept the license terms and conditions on the wherigo.com page, which blocks the download.
                 To fix this, please perform the following steps once:
-                - Login to wherigo.com with your browser
+                - Login to [wherigo.com](https://www.wherigo.com) with your browser
                 - Open any cartridge page
                 - Select the cartridge type "Pocket PC" and click the link to start downloading a cartridge
                 - Accept the license terms and conditions shown before the download starts
@@ -45,11 +162,30 @@
             content: |
                 Um Wherigo-Cartridges erfolgreich herunterzuladen müssen folgende Voraussetzungen erfüllt sein:
                 - Dein Gerät hat eine funktionierende Internetverbindung (ohne Proxy-Server, VPN, usw.)
-                - Deine Benutzerdaten für wherigo.com (die gleichen Benutzerdaten, die du auch für geocaching.com nutzt) wurden in WhereYouGo Einstellungen - Zugangsdaten hinterlegt
+                - Deine Benutzerdaten für [wherigo.com](https://www.wherigo.com) (die gleichen Benutzerdaten, die du auch für [geocaching.com](https://www.geocaching.com) nutzt) wurden in WhereYouGo Einstellungen - Zugangsdaten hinterlegt
                 
                 Wenn der Herunterladen trotz Eingabe der richtigen Benutzerdaten nicht funktioniert, könnte die Ursache sein, dass du die Lizenzbedignungen auf der wherigo.com Webseite noch nicht akzeptiert hast. Dies blockiert das Herunterladen.
                 Um dies zu beheben, führe bitte die folgenden Schritte einmalig aus:
-                - Logge dich mit dem Browser auf wherigo.com ein
+                - Logge dich mit dem Browser auf [wherigo.com](https://www.wherigo.com) ein
                 - Öffne eine beliebige Cartridge-Seite
                 - Wählen den Cartridge-Typ "Pocket PC" aus und klicke auf den Link, um die Cartridge herunterzuladen
                 - Akzeptiere nun die Lizenzbedingungen, die vor dem Beginn des Downloads abgefragt werden
+      - id: mapsforge
+        en:
+            title: What offline map file can I use for WhereYouGo?
+            content: |
+                WhereYouGo currently supports mapsforge maps with version v3 only. Newer versions are not supported yet.
+                We are aware, that v3 maps are potentially outdated and working on supporting more recent versions of mapsforge maps in future versions of WhereYouGo.
+                
+                Compatible map files for the desired region are available e.g. from here:
+                - [Mapsforge Download Mirror - V3](http://ftp-stud.hs-esslingen.de/pub/Mirrors/download.mapsforge.org/maps/v3/)
+                - [OpenAndroMaps](https://www.openandromaps.org/downloads/) (Make sure to use the V3 download link)
+        de:
+            title: Welche Offline-Kartendateien kann ich für WhereYouGo benutzen?
+            content: |
+                WhereYouGo unterstützt momentan nur Mapsforge-Karten der Version v3. Neuere Versionen werden noch nicht unterstützt.
+                Wir sind uns bewusst, dass v3-Karten potentiell veraltet sind und arbeiten daran, zukünftig aktuellere Versionen der Mapsforge-Karten in zukünftigen WhereYouGo-Versionen zu unterstützen.
+                
+                Kompatible Karten-Dateien für die gewünschte Regsion sind z.B. hier verfügbar:
+                - [Mapsforge Download Mirror - V3](http://ftp-stud.hs-esslingen.de/pub/Mirrors/download.mapsforge.org/maps/v3/)
+                - [OpenAndroMaps](https://www.openandromaps.org/downloads/) (Achte darauf, den Download-Link für v3 zu nutzen)
