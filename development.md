@@ -50,7 +50,7 @@ Please consider this, when using our nightly builds.
 
 ### Download Nightly Builds
 
-[WhereYouGo application](http://download.cgeo.org/whereyougo-nightly.apk)
+[WhereYouGo application](https://download.cgeo.org/whereyougo-nightly.apk)
 
 ## Translation of WhereYouGo
 
