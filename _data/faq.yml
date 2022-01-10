@@ -97,3 +97,29 @@
                 - Öffne eine beliebige Cartridge-Seite
                 - Wählen den Cartridge-Typ "Pocket PC" aus und klicke auf den Link, um die Cartridge herunterzuladen
                 - Akzeptiere nun die Lizenzbedingungen, die vor dem Beginn des Downloads abgefragt werden
+      - id: login
+        en:
+            title: How can I use the in-app download of Wherigo cartridges?
+            content: |
+                WhereYouGo can automatically download and store Wherigo cartridges for you.
+                The prerequisite for this is, that you stored your login credentials within WhereYouGo as follows:
+                - Start WhereYouGo
+                - Go to Settings - Login credentials
+                - Enter Username and Password for wherigo.com there (same credentials as you use for geocaching.com)
+                - Use "Check login data" to test whether WhereYouGo can succesfully connect to wherigo.com, else doublecheck your credentials
+                
+                Once you have setup the credentials you can invoke in-app download of a cartridge with one of the following methods:
+                - Open the desired cartridge page or the Wherigo geocache page in your Android web browser and tap on the cartridge download link.
+                - If you use [c:geo](https://www.cgeo.org) just open the desired Wherigo geocache in c:geo and tap on the WhereYouGo icon shown on the cache detail page.
+        de:
+            title: Wie kann ich den In-App Download von Wherigo-Cartridges nutzen?
+            content: |
+                WhereYouGo kann Wherigo-Cartridges für dich automatisch herunterladen und abspeichern.
+                Die Voraussetzung dafür ist, dass du deine Benutzerdaten in WhereYouGo folgendermaßen hinterlegt hast:
+                - Starte WhereYouGo
+                - Gehe in Einstellungen - Zugangsdaten
+                - Gib deinen Benutzername und dein Passwort für wherigo.com dort ein (die gleichen Benutzerdaten, die du auch für geocaching.com nutzt)
+                
+                Nachdem du deine Benutzerdaten hinterlegt hast, kannst du den In-App Download einer Cartridge durch eine der folgenden Methoden auslösen:
+                - Öffne die gewünschte Cartridge- oder Geocache-Seite in deinem Android-Browser und tippe auf den Cartridge-Download-Link.
+                - Wenn du [c:geo](https://www.cgeo.org) nutzt, öffne einfach den gewünschten Wherigo-Geocache in c:geo und tippe auf das WhereYouGo-Symbol auf der Seite Cache-Details.
