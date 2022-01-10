@@ -10,7 +10,7 @@
                 Unfortunately WhereYouGo is not yet fully compatibale to Android 12, which is causing this problem.
                 There is no workaround for the time being, so WhereYouGo does not work on Android 12 devices.
                 
-                Unfortunately the open source team maintaining the app is quite small at this moment, but we are doing our best to make WhereYouGo compatible to Android 12 and release an update as soon as possible.                
+                Unfortunately the open source team maintaining the app is quite small at this moment, but we are doing our best to make WhereYouGo compatible to Android 12 and release an update as soon as possible.         
         de:
             title: Die App meldet, dass die Standortdienste nicht funktionieren!
             content: |
@@ -18,7 +18,51 @@
                 WhereYouGo funktioniert also nicht auf Android 12-Geräten, es gibt momentan keinen Workaround.
                 
                 Leider ist das Open-Source Team, welches die App weiterentwicklet momemtan sehr klein, aber wir geben unser Bestes um WhereYouGo so schnell wie möglich zu Android 12 kompatibel zu machen und ein Update zu veröffentlichen.
- 
+      - id: file_access
+        en:
+            title: The app does not see any cartridge and/or offline map files!
+            content: |
+                Unfortunately WhereYouGo is not yet fully compatibale to the current Android file access requirements, which is causing this problem.
+                
+                To still be able to load and play cartridges please proceed as follows:
+                - Go to WhereYouGo Settings - Global and set the Wherigo folder to "Default"
+                - Load cartridges via in-app download by e.g. clicking on a Wherigo download link on the website or triggering the download from c:geo.
+                
+                Regarding the use of offline maps:
+                There is no workaround possible for the time being. You can only use the available online maps until the problem is solved.
+                
+                Unfortunately the open source team maintaining the app is quite small at this moment, but we are doing our best to make WhereYouGo compatible to newer Android versions and release an update as soon as possible.
+        de:
+            title: Die App sieht keine Cartridges und/oder keine Offline-Kartendateien!
+            content: |
+                Leider ist WhereYouGo noch nicht voll kompatibel zu den aktuellen Anforderungen für Dateizugriff, was dieses Problem verursacht.
+                
+                Um dennoch Cartridges zu laden und zu spielen, geh bitte wie folgt vor:
+                - Gehe in die WhereYouGo Einstellungen - Allgemein und setze den Wherigo-Ordner auf "Standard"
+                - Lade Cartridges mittels In-App Download z.B. durch Klick auf einen Wherigo Download-Link auf der Webseite oder durch Starten des Downloads aus c:geo.
+                
+                Bezüglich der Nutzung von Offline-Karten:
+                Hier gibt es leider momentan keinen Workaround. Du kannst nur die verfügbaren Online-Karten nutzen, bis das Problem behoben ist.
+                
+                Leider ist das Open-Source Team, welches die App weiterentwicklet momemtan sehr klein, aber wir geben unser Bestes um WhereYouGo so schnell wie möglich zu neueren Android-Versionen kompatibel zu machen und ein Update zu veröffentlichen.
+      - id: android12_links
+        en:
+            title: I am using Android 12 and Wherigo links are no longer opened with WhereYouGo!
+            content: |
+                If you are using a device running Android 12 you might experience, that WhereYouGo is not offered as target app (anymore) when tapping a cartridge link or when trying to open WhereYouGo from c:geo. Instead the link is opened in your browser.
+                
+                This is caused by the fact, that in Android 12 Google removed the dialog to let the user choose which app to use for certain web links. Instead the browser is automatically used.
+                
+                You can change this by going to your device app settings, open the WhereYouGo app settings and manually select to allow all URLs (web links) to open in WhereYouGo.                
+        de:
+            title: Ich nutze Android 12 und Wherigo-Links werden nicht mehr mit WhereYouGo geöffnet!
+            content: |
+                Wenn du ein Gerät mit Android 12 nutzt, kann es passieren, dass WhereYouGo nicht (mehr) als Ziel-App angeboten wird, wenn ein Cartridge-Link angeklickt wird oder WhereYouGo aus c:geo heraus gestartet werden soll. Stattdessen wird der Link in deinem Browser geöffnet.
+                
+                Dies wird dadurch verursacht, dass Google den Dialog, der den Nutzer die gewünschte App auswählen lässt, entfernt hat. Stattdessen wird der Link im Browser geöffnet.
+                
+                Du kannst dies ändern, in dem du die App-Einstellungen deines Gerätes und dort die WhereYouGo App-Einstellungen öffnest und dort manuell festlegst alle URLs (Web-Links) mit WhereYouGo zu öffnen.
+
 - id: generic
   title:
       en: Generic
