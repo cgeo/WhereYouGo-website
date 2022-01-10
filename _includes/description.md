@@ -1,1 +1,1 @@
-WhereYouGo - An open-source Wherigo-Player for Android.
+WhereYouGo - An open source Wherigo player for Android.
