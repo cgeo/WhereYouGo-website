@@ -76,7 +76,7 @@
                 The prerequisite for this is, that you stored your login credentials within WhereYouGo as follows:
                 - Start WhereYouGo
                 - Go to Settings - Login credentials
-                - Enter Username and Password for [wherigo.com](https://www.wherigo.com) there (same credentials as you use for [geocaching.com}(https://www.geocaching.com))
+                - Enter Username and Password for [wherigo.com](https://www.wherigo.com) there (same credentials as you use for [geocaching.com](https://www.geocaching.com))
                 - Use "Check login data" to test whether WhereYouGo can succesfully connect to wherigo.com, else doublecheck your credentials
                 
                 Once you have setup the credentials you can invoke in-app download of a cartridge with one of the following methods:
@@ -89,7 +89,7 @@
                 Die Voraussetzung dafür ist, dass du deine Benutzerdaten in WhereYouGo folgendermaßen hinterlegt hast:
                 - Starte WhereYouGo
                 - Gehe in Einstellungen - Zugangsdaten
-                - Gib deinen Benutzername und dein Passwort für [wherigo.com](https://www.wherigo.com) dort ein (die gleichen Benutzerdaten, die du auch für [geocaching.com}(https://www.geocaching.com) nutzt)
+                - Gib deinen Benutzername und dein Passwort für [wherigo.com](https://www.wherigo.com) dort ein (die gleichen Benutzerdaten, die du auch für [geocaching.com](https://www.geocaching.com) nutzt)
                 
                 Nachdem du deine Benutzerdaten hinterlegt hast, kannst du den In-App Download einer Cartridge durch eine der folgenden Methoden auslösen:
                 - Öffne die gewünschte Cartridge- oder Geocache-Seite in deinem Android-Browser und tippe auf den Cartridge-Download-Link.
@@ -100,7 +100,7 @@
             content: |
                 In order to succesfully download Wherigo cartridges the following conditions must be met:
                 - Your device has a working internet connection (without proxy server, VPN, etc.)
-                - Your credentials for [wherigo.com](https://www.wherigo.com) (same credentials as you use for [geocaching.com}(https://www.geocaching.com)) have been stored in WhereYouGo Settings - Login credentials
+                - Your credentials for [wherigo.com](https://www.wherigo.com) (same credentials as you use for [geocaching.com](https://www.geocaching.com)) have been stored in WhereYouGo Settings - Login credentials
                 
                 If it still does not work although the credentials are checked to be correct the problem could be, that you did not yet accept the license terms and conditions on the wherigo.com page, which blocks the download.
                 To fix this, please perform the following steps once:
@@ -115,7 +115,7 @@
             content: |
                 Um Wherigo-Cartridges erfolgreich herunterzuladen müssen folgende Voraussetzungen erfüllt sein:
                 - Dein Gerät hat eine funktionierende Internetverbindung (ohne Proxy-Server, VPN, usw.)
-                - Deine Benutzerdaten für [wherigo.com](https://www.wherigo.com) (die gleichen Benutzerdaten, die du auch für [geocaching.com}(https://www.geocaching.com) nutzt) wurden in WhereYouGo Einstellungen - Zugangsdaten hinterlegt
+                - Deine Benutzerdaten für [wherigo.com](https://www.wherigo.com) (die gleichen Benutzerdaten, die du auch für [geocaching.com](https://www.geocaching.com) nutzt) wurden in WhereYouGo Einstellungen - Zugangsdaten hinterlegt
                 
                 Wenn der Herunterladen trotz Eingabe der richtigen Benutzerdaten nicht funktioniert, könnte die Ursache sein, dass du die Lizenzbedignungen auf der wherigo.com Webseite noch nicht akzeptiert hast. Dies blockiert das Herunterladen.
                 Um dies zu beheben, führe bitte die folgenden Schritte einmalig aus:
