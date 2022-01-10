@@ -77,7 +77,7 @@
                 Leider ist das Open-Source Team, welches die App weiterentwicklet momemtan sehr klein, aber wir geben unser Bestes um WhereYouGo so schnell wie möglich wieder kompatibel zu Locus zu machen und ein Update zu veröffentlichen.
                 
                 Als Workaround gehe bitte in die WhereYouGo-Einstellungen - Allgemein und ändere die Kartengrundlage auf Mapsforge.
-     - id: mapsforge_zoom
+      - id: mapsforge_zoom
         en:
             title: The text on the map is too small to read!
             content: |
