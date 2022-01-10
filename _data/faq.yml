@@ -62,7 +62,21 @@
                 Dies wird dadurch verursacht, dass Google den Dialog, der den Nutzer die gewünschte App auswählen lässt, entfernt hat. Stattdessen wird der Link im Browser geöffnet.
                 
                 Du kannst dies ändern, in dem du die App-Einstellungen deines Gerätes und dort die WhereYouGo App-Einstellungen öffnest und dort manuell festlegst alle URLs (Web-Links) mit WhereYouGo zu öffnen.
-
+      - id: locus
+        en:
+            title: I want to use Locus as map provider, but it does not work!
+            content: |
+                [Locus](https://play.google.com/store/apps/details?id=menion.android.locus) has changed their map interface some time ago, but this is not yet reflected in WhereYouGo.
+                Unfortunately the open source team maintaining the app is quite small at this moment, but we are doing our best to make WhereYouGo again compatible Locus and release an update as soon as possible. 
+                
+                As a workaround please go to WhereYouGo Settings - Global and change the map provider to Mapsforge.
+        de:
+            title: Ich möchte Locus als Kartengrundlage nutzen, aber es funktioniert nicht!
+            content: |
+                [Locus](https://play.google.com/store/apps/details?id=menion.android.locus) hat bereits vor einiger Zeit seine Karten-Schnittstelle geändert, aber diese Änderung ist in WhereYouGo noch nicht umgesetzt.
+                Leider ist das Open-Source Team, welches die App weiterentwicklet momemtan sehr klein, aber wir geben unser Bestes um WhereYouGo so schnell wie möglich wieder kompatibel zu Locus zu machen und ein Update zu veröffentlichen.
+                
+                Als Workaround gehe bitte in die WhereYouGo-Einstellungen - Allgemein und ändere die Kartengrundlage auf Mapsforge.
 - id: generic
   title:
       en: Generic
