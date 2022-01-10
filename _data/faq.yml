@@ -77,6 +77,20 @@
                 Leider ist das Open-Source Team, welches die App weiterentwicklet momemtan sehr klein, aber wir geben unser Bestes um WhereYouGo so schnell wie möglich wieder kompatibel zu Locus zu machen und ein Update zu veröffentlichen.
                 
                 Als Workaround gehe bitte in die WhereYouGo-Einstellungen - Allgemein und ändere die Kartengrundlage auf Mapsforge.
+     - id: mapsforge_zoom
+        en:
+            title: The text on the map is too small to read!
+            content: |
+                If you use an offline map you can change the text size in Map - Menu - Preferences - Font size according to your needs.
+                
+                If you however use an online map source this setting has no effect. We are working on a better visualization for the online map.
+        de:
+            title: Der Text auf der Karte ist zu klein um ihn zu lesen!
+            content: |
+                Wenn du eine Offline-Karte nutzt kannst du die Textgröße in Karte - Menü - Einstellungen - Schriftgröße nach Bedarf verändern.
+                
+                Wenn du allerdings eine Online-Karte nutzt, hat diese Einstellung keine Auswirkung. Wir arbeiten an einer besseren Darstellung der Online-Karte.
+
 - id: generic
   title:
       en: Generic
