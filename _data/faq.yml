@@ -1,37 +1,55 @@
-- id: id_1
+- id: known_bugs
   title:
-      en: Title_1
-      de: Titel_1
+      en: Known bugs and limitation
+      de: Bekannte Probleme und Einschränkungen
   items:
-      - id: item_1
+      - id: android12_location
         en:
-            title: ItemTitle_1
+            title: The app reports that location services are not working!
             content: |
-                Content_1
+                Unfortunately WhereYouGo is not yet fully compatibale to Android 12, which is causing this problem.
+                There is no workaround for the time being, so WhereYouGo does not work on Android 12 devices.
+                
+                Unfortunately the open source team maintaining the app is quite small at this moment, but we are doing our best to make WhereYouGo compatible to Android 12 and release an update as soon as possible.                
         de:
-            title: EintragTitel_1
+            title: Die App meldet, dass die Standortdienste nicht funktionieren!
             content: |
-                Inhalt_1
-- id: id_2
+                Leider ist WhereYouGo noch nicht voll kompatibel zu Android 12, was dieses Problem verursacht.
+                WhereYouGo funktioniert also nicht auf Android 12-Geräten, es gibt momentan keinen Workaround.
+                
+                Leider ist das Open-Source Team, welches die App weiterentwicklet momemtan sehr klein, aber wir geben unser Bestes um WhereYouGo so schnell wie möglich zu Android 12 kompatibel zu machen und ein Update zu veröffentlichen.
+ 
+- id: generic
   title:
-      en: Title_2
-      de: Titel_2
+      en: Generic
+      de: Allgemein
   items:
-      - id: item_2
+      - id: cartridge_download
         en:
-            title: ItemTitle_2
+            title: Downloading cartridges from wherigo.com fails!
             content: |
-                Content_2
+                In order to succesfully download Wherigo cartridges the following conditions must be met:
+                - Your device has a working internet connection (without proxy server, VPN, etc.)
+                - Your credentials for wherigo.com (same credentials as you use for geocaching.com) have been stored in WhereYouGo Settings - Login credentials
+                
+                If it still does not work although the credentials are checked to be correct the problem could be, that you did not yet accept the license terms and conditions on the wherigo.com page, which blocks the download.
+                To fix this, please perform the following steps once:
+                - Login to wherigo.com with your browser
+                - Open any cartridge page
+                - Select the cartridge type "Pocket PC" and click the link to start downloading a cartridge
+                - Accept the license terms and conditions shown before the download starts
+                
+                After you went through these steps, the download should now also work in WhereYouGo.
         de:
-            title: EintragTitel_2
+            title: Das Herunterladen von Cartridges von wherigo.com schlägt fehl!
             content: |
-                Inhalt_2
-      - id: item_3
-        en:
-            title: ItemTitle_3
-            content: |
-                Content_3
-        de:
-            title: EintragTitel_3
-            content: |
-                Inhalt_3
+                Um Wherigo-Cartridges erfolgreich herunterzuladen müssen folgende Voraussetzungen erfüllt sein:
+                - Dein Gerät hat eine funktionierende Internetverbindung (ohne Proxy-Server, VPN, usw.)
+                - Deine Benutzerdaten für wherigo.com (die gleichen Benutzerdaten, die du auch für geocaching.com nutzt) wurden in WhereYouGo Einstellungen - Zugangsdaten hinterlegt
+                
+                Wenn der Herunterladen trotz Eingabe der richtigen Benutzerdaten nicht funktioniert, könnte die Ursache sein, dass du die Lizenzbedignungen auf der wherigo.com Webseite noch nicht akzeptiert hast. Dies blockiert das Herunterladen.
+                Um dies zu beheben, führe bitte die folgenden Schritte einmalig aus:
+                - Logge dich mit dem Browser auf wherigo.com ein
+                - Öffne eine beliebige Cartridge-Seite
+                - Wählen den Cartridge-Typ "Pocket PC" aus und klicke auf den Link, um die Cartridge herunterzuladen
+                - Akzeptiere nun die Lizenzbedingungen, die vor dem Beginn des Downloads abgefragt werden
