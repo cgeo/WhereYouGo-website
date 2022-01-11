@@ -31,7 +31,7 @@ header {
             cursor: pointer;
 
             padding: 20px;
-            $color-base: #1EB040;
+            $color-base: $color-download-box;
             background-image: $gradient-overlay;
             background-color: $color-base;
             $shadow: shadow(1px, 5px, .4);
