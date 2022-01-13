@@ -1,11 +1,6 @@
 # WhereYouGo-website
 
-**Temporary note**:
-CNAME configuration is not yet completed, the website is currently only reachable [here](https://www.cgeo.org/WhereYouGo-website/).
-
 This repository contains the [website of WhereYouGo](http://www.whereyougo.org/). If you are looking for the source code of the WhereYouGo app, please visit [github.com/cgeo/WhereYouGo](https://github.com/cgeo/WhereYouGo) instead.
-
-
 
 ## How to install and run
 
