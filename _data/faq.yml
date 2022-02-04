@@ -7,17 +7,11 @@
         en:
             title: The app reports that location services are not working!
             content: |
-                Unfortunately WhereYouGo is not yet fully compatibale to Android 12, which is causing this problem.
-                There is no workaround for the time being, so WhereYouGo does not work on Android 12 devices.
-                
-                Unfortunately the open source team maintaining the app is quite small at this moment, but we are doing our best to make WhereYouGo compatible to Android 12 and release an update as soon as possible.         
+                Please update your installation to the newest WhereYouGo version 2022.01.14, where this problem is solved.
         de:
             title: Die App meldet, dass die Standortdienste nicht funktionieren!
             content: |
-                Leider ist WhereYouGo noch nicht voll kompatibel zu Android 12, was dieses Problem verursacht.
-                WhereYouGo funktioniert also nicht auf Android 12-Geräten, es gibt momentan keinen Workaround.
-                
-                Leider ist das Open-Source Team, welches die App weiterentwicklet momemtan sehr klein, aber wir geben unser Bestes um WhereYouGo so schnell wie möglich zu Android 12 kompatibel zu machen und ein Update zu veröffentlichen.
+                Bitte aktualisiere deine Installation auf die neueste Version von WhereYouGo 2022.01.14, in der das Problem behoben ist.
       - id: file_access
         en:
             title: The app does not see any cartridge and/or offline map files!
