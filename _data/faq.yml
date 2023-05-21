@@ -23,6 +23,12 @@
                 - Load cartridges via in-app download by e.g. clicking on a Wherigo download link on the website or triggering the download from c:geo.
                 - Additionally check the app settings as described in this [FAQ entry](https://www.whereyougo.org/faq#android12_links)
                 
+                Some cartridges are provided via websites other than www.whereigo.com. To use those with WhereYouGo you can try the following steps:
+                - Download cartridge to your PC
+                - Connect your mobile with your PC
+                - Copy the cartridge to the following folder on your mobile: /Android/data/menion.android.whereyougo/files
+                (This workaround may not be supported by all devices.)
+                
                 Regarding the use of offline maps:
                 There is no workaround possible for the time being. You can only use the available online maps until the problem is solved.
                 
@@ -36,6 +42,12 @@
                 - Gehe in die WhereYouGo Einstellungen - Allgemein und setze den Wherigo-Ordner auf "Standard"
                 - Lade Cartridges mittels In-App Download z.B. durch Klick auf einen Wherigo Download-Link auf der Webseite oder durch Starten des Downloads aus c:geo.
                 - Überprüfe zusätzlich die App-Einstellungen wie in diesem [FAQ-Eintrag](https://www.whereyougo.org/faq#android12_links) beschrieben.
+                
+                Manche Cartridges werden von anderen Websites als www.whereigo.com bereitgestellt. Um diese mit WhereYouGo spielen zu können, kannst Du folgende Schritte ausprobieren:
+                - Lade die Cartridge am PC herunter
+                - Verbinde Dein Handy mit dem PC
+                - Kopiere die Cartridge in folgendes Verzeichnis auf Deinem Handy: /Android/data/menion.android.whereyougo/files
+                (Dieser Weg wird möglicherweise nicht auf allen Geräten unterstützt.)
                 
                 Bezüglich der Nutzung von Offline-Karten:
                 Hier gibt es leider momentan keinen Workaround. Du kannst nur die verfügbaren Online-Karten nutzen, bis das Problem behoben ist.
