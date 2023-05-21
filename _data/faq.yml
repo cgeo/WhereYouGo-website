@@ -158,7 +158,6 @@
                 
                 After you went through these steps, the download should now also work in WhereYouGo.
                 
-                !! Current notice (as of February 2023): There have been website changes on whereigo.com which make downloads fail currently. We are working on a fix for the app.
         de:
             title: Das Herunterladen von Cartridges von wherigo.com schlägt fehl!
             content: |
@@ -173,7 +172,6 @@
                 - Wählen den Cartridge-Typ "Pocket PC" aus und klicke auf den Link, um die Cartridge herunterzuladen
                 - Akzeptiere nun die Lizenzbedingungen, die vor dem Beginn des Downloads abgefragt werden
                 
-                !! Aktueller Hinweis (Februar 2023): Es hat Webseitenänderungen auf whereigo.com gegeben, wodurch derzeit alle Downloads fehlschlagen. Wir arbeiten an einer Anpassung der App.
       - id: mapsforge
         en:
             title: What offline map file can I use for WhereYouGo?
