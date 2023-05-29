@@ -61,7 +61,7 @@
                 
                 This is caused by the fact, that in Android 12 Google removed the dialog to let the user choose which app to use for certain web links. Instead the browser is automatically used.
                 
-                You can change this by going to your device app settings, open the WhereYouGo app settings and manually select to allow all URLs (web links) to open in WhereYouGo. 
+                You can change this by going to your device app settings, open the WhereYouGo app settings, go to "set as default", enable "open supported links", and manually select to allow all URLs (web links) to open in WhereYouGo. 
                 
                 For Xiaomi and Poco devices see this [FAQ entry for c:geo](https://www.cgeo.org/faq#android12)
         de:
@@ -71,7 +71,7 @@
                 
                 Dies wird dadurch verursacht, dass Google den Dialog, der den Nutzer die gewünschte App auswählen lässt, entfernt hat. Stattdessen wird der Link im Browser geöffnet.
                 
-                Du kannst dies ändern, in dem du die App-Einstellungen deines Gerätes und dort die WhereYouGo App-Einstellungen öffnest und dort manuell festlegst alle URLs (Web-Links) mit WhereYouGo zu öffnen.
+                Du kannst dies ändern, indem du die App-Einstellungen deines Gerätes und dort die WhereYouGo App-Einstellungen öffnest. Dort gehe zu "Festlegen als Standard", aktiviere "Unterstützte Links öffnen" sowie unter "Unterstützte Webadressen" alle URLs (Web-Links).
 
                 Für Xiaomi- und Poco-Geräte siehe auch diesen [FAQ-Eintrag für c:geo](https://www.cgeo.org/faq#android12)
       - id: locus
