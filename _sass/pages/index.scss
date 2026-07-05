@@ -1,5 +1,4 @@
 header {
-    @include shadow(1px, 5px, .2);
     padding-top: 50px;
     color: #ffffff;
     margin-top: -$height-navigation;
@@ -8,10 +7,10 @@ header {
         max-width: 300px;
         margin: auto;
         text-align: center;
-        padding: 90px;
+        padding: 45px;
 
         @media(max-width: 480px) {
-            padding: 40px;
+            padding: 20px;
         }
 
         .logo {
