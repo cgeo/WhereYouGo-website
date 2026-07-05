@@ -5,20 +5,19 @@
 
     <body>
 
-        {{ content }}
+        <header>
+            <div class="center">
+                <img src="images/whereyougo.png" class="logo">
+            </div>
+        </header>
 
-        {% unless page.no_edit_link %}
-            <article class="edit-on-github">
-                {% if page.edit_link %}
-                    Edit page on GitHub:
-                    {% for source in page.edit_link %}
-                        <a href="{{ site.github.repository_url }}/edit/master/{{ source[1] }}">{{ source[0] }}</a>
-                    {% endfor %}
-                {% else %}
-                    <a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}">Edit page on GitHub</a>
-                {% endif %}
+        <main>
+            <article class="container">
+                {% capture mdtmp %}{% include description.md %}{% endcapture %}
+                <div class="description">{{ mdtmp | markdownify }}</div>
             </article>
-        {% endunless %}
+        </main>
+
     </body>
 
 </html>
